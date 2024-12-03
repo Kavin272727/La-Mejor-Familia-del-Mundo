@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<HTML>
+    <head> 
+        <title> La Mejor Familia Del Mundo</title>
+    </head>
+    <body>
+        <center><h1> La Mejor Familia Del Mundo </h1></center>
+        <h2> Esta Familia consiste de cuatro personas</h2>
+        <center><h2> La Familia</h2> </center>
+        <center><img src = "Kavin-363_Original.jpg" alt="La Familia" width = "250" height = "250"></center>
+        <h2><ol>
+            <li> Papa  </li>
+            <li> Mama  </li>
+            <li> Kavin </li>
+            <li> Eksha </li>
+            </ol>
+        </h2>
+        <center><h3>Papa y Mama</h3></center>
+        <center><img src = "Kavin-467_Original.jpg" alt = " Papa y Mama" width = "250" height ="250"></center>
+        <figcaption> <strong> Papa esta a la izquierda y Mama esta a la derecha </strong></figcaption>
+    <section>
+        <figcaption> <em> What colour blazer is Papa wearing?</em> </figcaption>
+        <input id = "White"   name = "Blazer" type = "Radio" value = "White"  > White
+        <input id = "Black"  name = "Blazer" type = "Radio" value = "Black" checked> Black
+    </section>
+    <section>
+        <figcaption> <em> What colour dress is Mama wearing?</em> </figcaption>
+        <input id = "White"  name = "Dress" type = "Radio" value = "White" checked> White
+        <input id = "Black"  name = "Dress" type = "Radio" value = "Black" > Black 
+    </section> 
+    </body> 
+    
+     <section>  
+        <form>
+            <p> What's Papas' favourite colour</p>
+            <input type ="checkbox" name = "Papa's Colour" value =  "Blue" > Blue
+            <input type = "checkbox" name = "Papa's Colour" value = "Orange" > Orange
+            <input value ="Green" name = "Papa's Colour" type = "Checkbox"> Green 
+            <input name = "Papa's Colour" type = "Checkbox"  Value = "Red"> Red 
+            <br>
+            <p> Who's mamas's favourite child? </p>
+            <input type = "checkbox" value = "Kavin" name = " Mama's favourite " > Kavin
+            <input type = "checkbox" value = "Eksha" name = "Mama's favourite" > Eksha
+            <br>
+            <button type = "button" onclick = "alert ('Answer submitted!') " > Submit </button>
+        </form>
+     </section>
+    
+</HTML>
