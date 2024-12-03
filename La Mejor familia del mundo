@@ -45,5 +45,7 @@
             <button type = "button" onclick = "alert ('Answer submitted!') " > Submit </button>
         </form>
      </section>
-    
+    git add index.html
+    git commit -m "Add index.html"
+    git push
 </HTML>
